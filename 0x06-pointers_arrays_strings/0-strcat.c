@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-
 
 /**
  * *_strcat - concatenates two strings
@@ -12,10 +10,12 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char dest[] = "Geeks";
-	char src[] = "forGeeks";
+	int a = -1, i;
 
-	strcat(dest, src);
-	printf("Final string is: %s ", dest);
-	return (0);
+	for (i = 0; dest[i] != '\0'; i++)
+	do {a++;
+		dest[i] = scr[a];
+		i++
+	} while (src[a] != '\0');
+	return (dest);
 }
