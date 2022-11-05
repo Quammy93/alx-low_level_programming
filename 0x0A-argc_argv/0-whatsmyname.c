@@ -1,9 +1,0 @@
-#include <stdio.h>
-#include "main.h"
-
-int main()
-{
-  printf("Hello World!\n\n");
-  printf("I am learning C.");
-  return 0;
-}
